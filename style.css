@@ -34,7 +34,7 @@
 
 /* discount section styles */
 
-.discount-section{
+.discount-section {
     margin-top: 120px;
 }
 
@@ -68,5 +68,57 @@
     margin-top: 0px;
     align-items: center;
     margin: 0px 530px;
+    margin-bottom: 120px;
 }
 
+/* party invitation section styles */
+
+.party-invites {
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+        width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.party-texts h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 642px;
+    margin-bottom: 24px;
+}
+
+.party-texts p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 697px;
+    margin-bottom: 48px;
+}
+
+#img-2024 {
+    justify-content: space-between;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+
+}
+
+#btn-01 {
+    background: none;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
