@@ -4,12 +4,20 @@
 }
 
 /* header styles */
+.gradiant {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
 .Banner-texts h3 {
     color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
     padding: 177px 530px 16px;
+
 }
 
 .Banner-texts h1 {
@@ -25,12 +33,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+
     width: 1320px;
     height: 600px;
-    margin: 50px auto;
+    margin: 140px auto;
 
 }
+
+
 
 /* discount section styles */
 
@@ -77,12 +87,13 @@
     background-image: url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
-        width: 1320px;
+    width: 1320px;
     height: 600px;
     margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .party-texts h1 {
@@ -121,4 +132,47 @@
     font-weight: 700;
     text-transform: uppercase;
 
+}
+
+/* place date time section style */
+
+.place-date-time {
+    text-align: center;
+    align-items: center;
+}
+
+.gradiant-2 {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    margin: 50px auto;
+}
+#all-texts{
+    padding: 100px 386px 0 385px;
+}
+
+.text-color {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.place-date-time-text {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+#btn-02 {
+    margin-top: 64px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFFFFF;
 }
