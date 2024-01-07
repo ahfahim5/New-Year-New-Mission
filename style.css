@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+.Banner-texts h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 530px 16px;
+}
+
+.Banner-texts h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.Banner-texts {
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+
+}
+
+/* discount section styles */
+
+.discount-section{
+    margin-top: 120px;
+}
+
+#discount {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+#discount-detais {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#discount-category {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+#new-year-img {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 0px;
+    align-items: center;
+    margin: 0px 530px;
+}
+
