@@ -1,24 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
+
 /* header styles */
-
-
 
 .Banner-texts h3 {
     color: #FFF;
     text-align: center;
+    font-family: serif;
     font-size: 32px;
     font-weight: 400;
     padding: 177px 530px 16px 530px;
-
 }
 
 .Banner-texts h1 {
     color: #FFF;
     text-align: center;
+    font-family: serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -32,15 +34,15 @@
     border-radius: 16px;
     width: 1320px;
     height: 600px;
+    margin-top: 50px;
     margin: 140px auto;
 }
-
-
 
 /* discount section styles */
 
 .discount-section {
     margin-top: 120px;
+    font-family: sans-serif;
 }
 
 #discount {
@@ -70,18 +72,15 @@
 #new-year-img {
     width: 802.9px;
     height: 500px;
-    margin-top: 0px;
     align-items: center;
-    margin: 0px 530px;
-    margin-bottom: 120px;
+    margin: 48px 400px 120px 220px;
+    padding-left: 300px;
 }
 
 /* party invitation section styles */
 
 .party-invites {
-    background-image:
-        linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
-
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -91,10 +90,12 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
+    border-radius: 15px;
 }
 
 .party-texts h1 {
     color: #fff;
+    font-family: serif;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -105,6 +106,7 @@
 
 .party-texts p {
     color: rgba(255, 255, 255, 0.80);
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -125,7 +127,8 @@
     border: none;
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 
@@ -143,9 +146,9 @@
     margin: 50px auto;
 }
 
-
 #all-texts {
     padding: 100px 386px 0 385px;
+
 }
 
 .text-color {
@@ -158,7 +161,8 @@
 
 .place-date-time-text {
     color: #070211;
-    font-size: 32px;
+    font-family: sans-serif;
+    font-size: 30px;
     font-weight: 600;
     line-height: 56px;
 
@@ -171,6 +175,7 @@
     border-radius: 8px;
     background: #F00;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 /* best-offers section styles */
@@ -185,6 +190,7 @@
 #new-offer {
     color: #F00;
     text-align: left;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -192,6 +198,7 @@
 
 #coming-soon {
     color: #070211;
+    font-family: serif;
     font-size: 48px;
     font-weight: 900;
 
@@ -200,6 +207,7 @@
 
 #offer-breff {
     color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -219,6 +227,7 @@
 
 #txt-2024 {
     color: #F00;
+    font-family: sans-serif;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -227,6 +236,7 @@
 #txt-breff {
     color: rgba(7, 2, 17, 0.60);
     max-width: 276px;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -251,6 +261,7 @@
 
 .holiday-head {
     color: #070211;
+    font-family: sans-serif;
     font-size: 34px;
     font-weight: 500;
     text-align: center;
@@ -261,17 +272,18 @@
 .holiday-title {
     text-align: center;
     color: #070211;
+    font-family: serif;
     font-size: 75px;
     font-weight: 900;
     padding-bottom: 30px;
 }
 
 .holiday-breff {
-    padding-left: 400px;
+    margin-left: 350px;
     width: 1068px;
     text-align: center;
     color: black;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -309,7 +321,6 @@
 /* best gifts section styles */
 .best-gifts {
     margin: 121px 140px 0px 140px;
-
 }
 
 .best-gifts-txt {
@@ -318,17 +329,20 @@
 
 #best-gift-head {
     color: #F00;
+    font-family: sans-serif;
     font-size: 24px;
     margin-bottom: 24px;
 }
 
 #best-gift-title {
     color: #070211;
+    font-family: serif;
     font-size: 48px;
 }
 
 #best-gift-breff {
     color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
     font-size: 20px;
     line-height: 32px;
     max-width: 896px;
@@ -342,8 +356,8 @@
 
 .gift-img img {
 
-    width: 420px;
-    height: 395px;
+    width: 390px;
+    height: 400px;
     border-radius: 16px;
     margin: 15px 15px;
     transition: 1s;
@@ -373,12 +387,14 @@
 .subscribe h1 {
     color: #070211;
     text-align: center;
+    font-family: serif;
     font-size: 48px;
 }
 
 .subscribe p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
+    font-family: sans-serif;
     font-size: 20px;
     line-height: 32px;
     max-width: 896px;
@@ -397,6 +413,7 @@
 ::placeholder {
     color: rgba(7, 2, 17, 0.30);
     text-align: left;
+    font-family: sans-serif;
     padding-left: 20px;
     font-size: 18px;
 }
@@ -410,52 +427,73 @@
     text-align: center;
     color: #FFF;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 /* footer section styles */
-.adds-num {
-    display: flex;
+
+.footer-main {
+    background-color: #070211;
     width: 1920px;
     height: 609px;
-    background: #070211;
-    justify-content: space-between;
 }
 
 #adds {
-    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    padding-top: 120px;
 }
 
-#num-web {
-    display: inline-block;
+#call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-#num-call {}
-
-#call-icon {
-    width: 24px;
-    height: 24px;
-}
-
-#num {
-    color: #FFF;
-    font-size: 24px;
-    line-height: 40px;
-}
-
-#website {
-    color: #FFF;
-
-    font-size: 24px;
-
-    font-weight: 500;
-    line-height: 40px;
+#call p small {
+    font-family: sans-serif;
 }
 
 #web-icon {
-    display: flex;
     width: 24px;
     height: 24px;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    margin: 50px auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-img {
+    width: 64px;
+    height: 64px;
+}
+
+.unsub {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
