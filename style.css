@@ -34,15 +34,20 @@
     border-radius: 16px;
     width: 1320px;
     height: 600px;
-    margin-top: 50px;
-    margin: 140px auto;
+
+    margin: 50px auto;
 }
 
 /* discount section styles */
 
 .discount-section {
     margin-top: 120px;
-    font-family: sans-serif;
+    font-family: serif;
+}
+
+.discount-section h1 {
+    margin-top: 120px;
+    font-family: serif;
 }
 
 #discount {
@@ -52,6 +57,7 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
+
 
 #discount-detais {
     color: #F00;
@@ -80,7 +86,7 @@
 /* party invitation section styles */
 
 .party-invites {
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -278,6 +284,7 @@
     padding-bottom: 30px;
 }
 
+
 .holiday-breff {
     margin-left: 350px;
     width: 1068px;
@@ -438,7 +445,7 @@
     height: 609px;
 }
 
-#adds {
+#adds-web {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -450,14 +457,20 @@
     padding-top: 120px;
 }
 
+#adds p {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
 #call {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#call p small {
+#call p {
     font-family: sans-serif;
+    font-size: 24px;
 }
 
 #web-icon {
@@ -493,7 +506,9 @@ hr {
     justify-content: space-around;
     align-items: center;
     color: #fff;
+}
+
+.unsub p {
     font-family: sans-serif;
     font-size: 24px;
-    font-weight: 500;
 }
